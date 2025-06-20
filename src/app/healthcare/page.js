@@ -1,12 +1,12 @@
 "use client";
 
 import { useEffect } from "react";
-import Lenis from "@studio-freight/lenis";
 import Hero from "@/components/healthcare/Hero";
 import About from "@/components/healthcare/About";
 import TeamAccess from "@/components/healthcare/TeamAccess";
 import AdvantageSection from "@/components/healthcare/Section";
 import FAQSection from "@/components/healthcare/FAQSection";
+import Lenis from "lenis";
 
 const gradient =
   "linear-gradient(135deg, rgb(16, 185, 129) 0%, rgb(220, 252, 231) 100%)";

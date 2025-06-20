@@ -2,7 +2,6 @@
 
 import { motion } from "framer-motion";
 import { useModal } from "@/context/ModalContext";
-import Lenis from "@studio-freight/lenis";
 import {
   Globe,
   TrendingUp,
@@ -13,6 +12,7 @@ import {
 } from "lucide-react";
 import { ArrowRightIcon } from "@heroicons/react/24/solid";
 import { useEffect } from "react";
+import Lenis from "lenis";
 
 export default function WebTrafficPage() {
   const { setIsModalOpen } = useModal();

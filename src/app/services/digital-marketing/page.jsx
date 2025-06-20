@@ -1,6 +1,5 @@
 "use client";
 import { useEffect } from "react";
-import Lenis from "@studio-freight/lenis";
 import EducationHero from "@/components/education/Hero";
 import AboutEducationSection from "@/components/education/About";
 import EducationStrategySection from "@/components/education/Section";
@@ -13,6 +12,7 @@ import ProcessSection from "@/components/digital/ProcessSection";
 import WhyChooseUsSection from "@/components/digital/WhyChooseUsSection";
 import MarketingSection from "@/components/digital/MarketingSection";
 import RealEstateFAQSection from "@/components/digital/RealEstateFAQSection";
+import Lenis from "lenis";
 
 const gradient = "linear-gradient(135deg, #0ea5e9 0%, #1e3a8a 100%)";
 const startColor = "#7dd3fc";

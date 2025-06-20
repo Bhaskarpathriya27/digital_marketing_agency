@@ -1,12 +1,12 @@
 "use client";
 
 import { useEffect } from "react";
-import Lenis from "@studio-freight/lenis";
 import RealEstateHero from "@/components/real-Estate/RealEstateHero";
 import AboutRealEstate from "@/components/real-Estate/AboutRealEstate";
 import RealEstateHighlightSection from "@/components/real-Estate/RealEstateHighlightSection";
 import SmartCRMSection from "@/components/real-Estate/SmartCRMSection";
 import RealEstateFAQ from "@/components/real-Estate/RealEstateFAQ";
+import Lenis from "lenis";
 
 const gradient =
   "linear-gradient(135deg, rgb(234, 88, 12) 0%, rgb(254, 226, 226) 100%)";

@@ -1,7 +1,7 @@
 "use client";
 import { useEffect } from "react";
-import Lenis from "@studio-freight/lenis";
 import GoogleAdwordsHero from "@/components/adwords/GoogleAdwordsHero";
+import Lenis from "lenis";
 
 export default function GoogleAdwords() {
   // Smooth scrolling
